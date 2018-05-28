@@ -1,0 +1,29 @@
+{
+  "name": "wysiwyg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.4.1",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "draft-js": "^0.10.5",
+    "immutable": "^3.8.2",
+    "next": "^6.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.1.5",
+    "raw-loader": "^0.5.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-draft-wysiwyg": "^1.12.13",
+    "react-quill": "^1.2.7",
+    "slate": "^0.33.5",
+    "slate-react": "^0.12.5",
+    "styled-jsx": "^2.2.6"
+  },
+  "scripts": {
+    "dev-server": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
